@@ -1,0 +1,48 @@
+body {
+    font-family: "Microsoft YaHei", sans-serif;
+    margin: 0;
+    padding: 10px;
+}
+
+.container {
+    max-width: 100%;
+    padding: 15px;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.instructions {
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #2b579a;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #204072;
+}
+
+.loading {
+    margin-top: 20px;
+    text-align: center;
+    color: #666;
+}
+
+.error {
+    margin-top: 20px;
+    color: #e74c3c;
+    display: none;
+} 

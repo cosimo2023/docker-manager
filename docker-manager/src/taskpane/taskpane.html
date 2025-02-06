@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <title>文本优化助手</title>
+
+    <!-- Office JavaScript API -->
+    <script type="text/javascript" src="https://appsforoffice.microsoft.com/lib/1.1/hosted/office.js"></script>
+    <script type="text/javascript" src="taskpane.js"></script>
+    
+    <!-- 样式表 -->
+    <link rel="stylesheet" type="text/css" href="taskpane.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>文本优化助手</h1>
+        <div class="instructions">
+            <p>请选择要优化的文本，然后点击下面的按钮：</p>
+        </div>
+        <button id="run" class="button">优化所选文本</button>
+        <div id="loading" class="loading" style="display: none;">
+            正在处理中...
+        </div>
+        <div id="error" class="error" style="display: none;">
+        </div>
+    </div>
+</body>
+</html> 
